@@ -11,6 +11,7 @@ public class Main {
         String tempCode;
         System.out.println("Please input a string for encryption");
         tempCode = input.nextLine();
-        Code code = new Code();
+        Code code = new Code(tempCode);
+        
     }
 }
